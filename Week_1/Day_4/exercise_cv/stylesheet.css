@@ -1,0 +1,39 @@
+html {
+	font-size: 20px;
+}
+body {
+	background-color: all#333
+;
+	padding: 50px;
+}
+footer {
+	   
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 20%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 20px;
+
+}
+.float_left{
+	float: left;
+	width: 50%;
+	text-align: left;
+	height: 200px;
+
+}
+
+.float_right{
+	width: 50%;
+	height: 200px;
+	text-align: left;
+	float: right;
+}
+#back{
+	background-color: #f1f1f1;
+
+}
