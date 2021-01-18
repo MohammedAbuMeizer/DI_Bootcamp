@@ -1,0 +1,21 @@
+h5{
+	text-align: center;
+}
+.left{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.right{
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+.left1{
+	float: left;
+	width: 50%;
+}
+.right1{
+	width: 50%;
+	float: right;
+}

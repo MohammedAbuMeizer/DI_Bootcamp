@@ -3,13 +3,14 @@
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<section class="container">
 		<div>
 			<form action="/action_page.php">
  				 <div >
-   					 <h1>Log in</h1>
+   					 <h1 class="head-size">Log in</h1>
    					 <hr>
     				 <input type="text" placeholder="Email" name="email" id="email" required>
 
@@ -18,21 +19,27 @@
   				     <hr>
 
    					 <button type="submit" class="loginbtn">Log In</button>
+   					 <section class="check-box">
+	   					 <input type="checkbox" name="Remember" >
+	   					 <label for="Remember">Remember me</label>
+					 </section>
+   					 <a id="forgot" href="#">Forgot password ?</a>
 
-   					 <input type="checkbox" name="Remember" >
-   					 <label for="Remember">Remember me</label>
-
-   					 <a href="#">Forgot password ?</a>
-
-   					 <p>____________or connect by____________</p>
+   					 <p> OR CONNECT WITH </p>
+   					 <a href="#" class="f fa fa-facebook" style="font-size: 40px;"></a>
+		<a href="#" class="f fa fa-twitter" style="font-size: 40px;"></a>
+		<a href="#" class="f fa fa-google" style="font-size: 40px;"></a>
   				</div>
 			</form>
 		</div> 
 	</section>
 
-	<section>
+	<section class="container back">
 		<div>
-			<img src="addPerson.png"> 
+			<h1 class="head-size"> Hello ,friend!</h1>
+			<p>Enter your personal details and start journey with us </p>
+
+			<input class="btnreg" type="submit" name="Register" value="Register">
 		</div>
 	</section>
 </body>
