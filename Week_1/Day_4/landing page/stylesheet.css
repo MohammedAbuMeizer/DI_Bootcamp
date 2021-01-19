@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover ,.navbar button:hover{
+  background: #ddd;
+  color: black;
+  border-radius: 10%;
+}
+.main{
+	margin: 0;
+}
+.navbar button {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: green;
+  border-radius: 15%;
+}
+div{
+	background-repeat: no-repeat;
+	width: 100%; 
+	background-size: 100% 100%;
+}
+.centere{
+	text-align: center;
+	padding: 10em 0em;
+}
+#cov-pa{
+	color: white;
+	font-size: 40px;
+
+}
+input{
+
+	height: 20px;
+	width: 180px;
+
+}
+button {
+  color: #f2f2f2;
+  width: 120px;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  background-color:#0F28D3 ;
+  border-radius: 15%;
+}
+.main{
+	background-color: #E6E8F0;
+}
+i{
+	font-size: 100px;
+}
+section{
+	text-align: center;
+	padding: 20px;
+}
+.flexes{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
