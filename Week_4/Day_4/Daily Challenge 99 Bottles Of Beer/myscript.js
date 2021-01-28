@@ -14,7 +14,11 @@ if (!(number <= 0)) {
 			document.getElementById("result").innerHTML = result ;
 		} 
 		else {
-			result = result + (number + " " + sentence + "<br>" + "Take "+(number) + " "+sentence2 + "<br>");
+
+			for (let j = 0; j < number ; j++) {
+				result = result + number + " " + sentence + "<br>";
+		}
+			result = result +  "Take "+(number) + " "+sentence2 + "<br>";
 			document.getElementById("result").innerHTML = result;
 
 		}
