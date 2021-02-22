@@ -5,7 +5,7 @@ class Zoo:
     
     def add_animal(self,new_animal):
         if new_animal not in self.animals:
-            self.animals.append(new_animal)
+            self.animals.append(new_animal) 
 
     def get_animals(self):
         for item in self.animals:
