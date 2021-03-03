@@ -25,13 +25,14 @@ for item in sorted(users) :
 print(disney_users_C)
 
 ind = 0 
+
 def split(word):
     return [char for char in word] 
+
 disney_users_A = {}
 for item in users :
     if "i" in item :
         sp = split(item) 
-        print(sp[0])
         if "M" == sp[0] or "P" == sp[0]:
             disney_users_A[item] = ind
             ind += 1
