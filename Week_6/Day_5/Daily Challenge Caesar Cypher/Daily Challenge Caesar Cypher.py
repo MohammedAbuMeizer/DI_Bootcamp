@@ -20,7 +20,7 @@ elif enc_or_dec == "2" :
     for letter in text:
         cypher_text += chr(ord(letter) + shift)
     
-
 else :
     enc_or_dec = input("if you want to encrypt type 1 , if you want to decrypt type 2 ")
+
 print(cypher_text)
