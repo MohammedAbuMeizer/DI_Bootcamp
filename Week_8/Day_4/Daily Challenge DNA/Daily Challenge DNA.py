@@ -8,9 +8,7 @@ class Gene():
     def flip(self):
         if random.randint(0,1) == 0:
             if self.value == 0:
-                self.value = 1
-            elif self.value == 1:
-                self.value = 0           
+                self.value = 1          
 
 class Chromosome() :
     Array_gene = []
@@ -94,7 +92,7 @@ while is_finishe :
             org.flip()
         count += 1
 
-print(count)   
+print(f"we flip {count} times atleast for one organsim")   
 
 
   
