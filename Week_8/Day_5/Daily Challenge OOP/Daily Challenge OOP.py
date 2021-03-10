@@ -49,7 +49,6 @@ deck.show()
 print("-------deal--------")
 deck.deal()
 print("--------dealt-------")
-
 deck.show()
 
 
