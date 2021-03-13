@@ -1,10 +1,15 @@
 class Human():
+    family = []
     def __init__(self,id_number,name,age,prioritary,blood_type):
         self.id_number = id_number
         self.name = name
         self.age = age
         self.prioritary = prioritary
         self.blood_type = blood_type
+        self.family = family
+    
+    def add_family_member(self, person):
+        self.family.append(person)
 
 class Queue():
     def __init__(self):
@@ -68,9 +73,9 @@ class Queue():
             if self.queue[ind].age < self.queue[ind+1].age: 
                 if self.queue[ind].prioritary == True and self.queue[ind+1].prioritary == False :
                     self.swap(self.queue[ind],self.queue[ind+1])
-                    print("@@@@@")
-        #return self.queue
-           
+
+    def rearange_queue(self):
+        pass       
         
 
 h1 = Human("1","h1",60,False,"A")
