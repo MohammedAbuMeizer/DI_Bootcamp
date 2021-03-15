@@ -7,7 +7,6 @@ def display_amount(day,month,year):
     result = holiday - current_date_time
     res = str(result)
     r = res.replace(", "," and ")
-    print(r)
     print(f"Todays date is {current_date_time}\nThe next holiday is in {r} hours")
 
 
